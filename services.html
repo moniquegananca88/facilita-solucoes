@@ -40,9 +40,11 @@
       <button class="menu-btn" onclick="toggleMenu()">☰</button>
 
       <nav class="menu">
-        <a href="index.html">Home</a>
+       <a href="index.html">Home</a>
         <a href="services.html">Services</a>
-        <a href="https://wa.me/5511999999999" target="_blank"> Contact </a>
+        <a href="https://wa.me/5511999999999" target="_blank">
+    Contact
+</a>
       </nav>
     </header>
 
@@ -51,51 +53,72 @@
         <video loop autoplay muted class="conteudo-background">
           <source src="./assets/video.mp4" />
         </video>
-
+        <!-- <img src="./assets/backgroud.jpeg" class="conteudo-background"/> -->
         <div class="mascara-video"></div>
       </div>
 
       <div class="sobre-nos">
         <img src="./assets/logo.png" class="logo" />
+
+        <p>🔧 SERVICES🔧</p>
+    
         <p>
-          🔧 Mario & Luigi Plumbers - Solving Your Plumbing Problems in Style!
-          🔧
+          ⚡ Installation Services Professional installation of equipment,
+          fixtures, and essential systems.
         </p>
+
         <p>
-          Have you ever found yourself in a plumbing emergency? Unexpected
-          leaks, clogged pipes, or faucets that won't stop dripping? Don't
-          worry, because we're here to save the day! Introducing the most famous
-          plumbers in the Mushroom Kingdom - Mario and Luigi!
+          🏠 Home Improvement Upgrades and improvements designed to enhance
+          comfort, safety, and functionality.
         </p>
+
+        <p>
+          🚨 Emergency Assistance Quick response services available when
+          unexpected issues arise.
+        </p>
+
+        <p>
+          💬 Free Consultation Get expert guidance and a personalized quote
+          before starting your project.
+        </p>
+
         <button onclick="showForm()">Get in touch</button>
       </div>
 
-      <img src="./assets/mario.png" class="mario" />
+      <img src="./assets/luigi.png" class="mario" />
       <a
-        class="whatsapp"
-        href="https://wa.me/9999999999?text=Hello!%20I%20would%20like%20to%20request%20a%20quote."
-        target="_blank"
-      >
-        <img src="./assets/whatsapp.png" />
-      </a>
+    class="whatsapp"
+    href="https://wa.me/9999999999?text=Hello!%20I%20would%20like%20to%20request%20a%20quote."
+    target="_blank"
+>
+    <img src="./assets/whatsapp.png" />
+</a>
 
       <form
-        action="https://formsubmit.co/moniquegananca@gmail.com"
-        method="POST"
-        class="fale-conosco"
-      >
-        <input type="text" name="name" placeholder="Your Name" required />
+    action="https://formsubmit.co/moniquegananca@gmail.com"
+    method="POST"
+    class="fale-conosco"
+>
 
-        <input type="email" name="email" placeholder="Your Email" required />
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+    />
 
-        <textarea
-          name="message"
-          placeholder="Enter your problem"
-          required
-        ></textarea>
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+    />
 
-        <button type="submit">Request Quote</button>
-      </form>
+    <textarea
+        name="message"
+        placeholder="Enter your problem"
+        required
+    ></textarea>
     </div>
     <script src="script.js"></script>
   </body>
