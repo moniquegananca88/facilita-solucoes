@@ -35,10 +35,18 @@
     <div class="mascara-form" onclick="hideForm()"></div>
 
     <header>
-      <img src="./assets/logo-header.png" class="logo-header" />
-      <a>Home</a>
-      <a onclick="showForm()">Contact Us</a>
-      <a href="./nossos-servicos.html">Our Services</a>
+       <img src="./assets/logo-header.png" class="logo-header">
+
+    <button class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </button>
+
+    <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
     </header>
 
     <div class="container">
@@ -79,6 +87,14 @@
         <button type="submit">Request Quote</button>
       </form>
     </div>
+<script>
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
+</script>
+
+
   </body>
   <script>
     const form = document.querySelector(".fale-conosco");
