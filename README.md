@@ -7,89 +7,77 @@ Um site institucional moderno e responsivo desenvolvido para a Facilita Soluçõ
 ![Facilita Soluções](./image.png)
 
 
-🌐 Demonstração
+## Demonstração
+
+Acesse o projeto publicado:
 
 https://moniquegananca88.github.io/facilita-solucoes/
 
-✨ Funcionalidades
-Design responsivo para desktop, tablet e smartphone
-Menu de navegação intuitivo
-Componentes reutilizáveis (Header, Footer, Formulário e WhatsApp)
-Integração direta com WhatsApp
-Formulário de solicitação de orçamento
-Vídeo institucional em plano de fundo
-Página institucional da empresa
-Catálogo de produtos e soluções
-Página de clientes
-Estrutura modular para facilitar manutenção
-Ícones e favicon personalizados
-Layout moderno e profissional
-🛠️ Tecnologias Utilizadas
-HTML5
-CSS3
-JavaScript
-Git
-GitHub
-GitHub Pages
-⚙️ Como Executar o Projeto
+## Sobre o projeto
 
-Clone o repositório:
+O site foi criado com foco em apresentação profissional, navegação simples e contato rápido com a empresa. A estrutura utiliza páginas separadas e componentes reutilizáveis para facilitar manutenção e futuras melhorias.
 
-git clone https://github.com/SEU-USUARIO/facilita-solucoes.git
+## Funcionalidades
 
-Acesse a pasta do projeto:
+* Layout responsivo para desktop, tablet e celular
+* Menu de navegação entre páginas
+* Componentes reutilizáveis para header, footer, formulário, WhatsApp e background
+* Vídeo institucional em plano de fundo
+* Formulário de solicitação de orçamento
+* Botão de contato via WhatsApp
+* Páginas institucionais para empresa, produtos e clientes
+* Ícones personalizados e favicon
 
-cd facilita-solucoes
+## Tecnologias utilizadas
 
-Abra o arquivo index.html em seu navegador ou utilize a extensão Live Server no Visual Studio Code.
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub Pages
 
-📂 Estrutura do Projeto
+## Estrutura do projeto
+
+```text
 facilita-solucoes/
-│
 ├── assets/
 │   ├── clientes/
 │   ├── produtos/
 │   ├── images/
 │   └── videos/
-│
 ├── components/
-│   ├── header.html
+│   ├── background.html
 │   ├── footer.html
 │   ├── form.html
-│   ├── whatsapp.html
-│   └── background.html
-│
+│   ├── header.html
+│   └── whatsapp.html
 ├── css/
-│   ├── style.css
-│   ├── header.css
+│   ├── clients.css
 │   ├── footer.css
 │   ├── form.css
+│   ├── header.css
 │   ├── home.css
 │   ├── services.css
-│   └── clients.css
-│
+│   └── style.css
+├── icon/
 ├── js/
-│   ├── script.js
-│   ├── header.js
+│   ├── background.js
+│   ├── config.js
 │   ├── footer.js
 │   ├── form.js
-│   ├── whatsapp.js
-│   └── background.js
-│
+│   ├── header.js
+│   ├── script.js
+│   └── whatsapp.js
 ├── pages/
+│   ├── clients.html
 │   ├── company.html
-│   ├── services.html
-│   └── clients.html
-│
-├── icon/
+│   └── services.html
 ├── index.html
 └── README.md
-🎯 Objetivo
 
-Este projeto foi desenvolvido para apresentar os produtos, serviços e soluções oferecidos pela Facilita Soluções de forma profissional, facilitando o contato com clientes e a divulgação da empresa no ambiente digital.
 
-👩‍💻 Desenvolvido por
+## Autora
 
-Monique Ganança
+Desenvolvido por Monique Ganança.
 
 GitHub: https://github.com/moniquegananca88
