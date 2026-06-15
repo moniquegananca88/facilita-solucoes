@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #fff;
+}
+
+button {
+  display: block;
+  margin: 30px auto 0;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #C51111;
+  width: 200px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.08);
+  background-color: #e01515;
+}

@@ -1,54 +1,94 @@
-🍄 Service Hero Template
+🚀 Site Institucional - Facilita Soluções
 
-A responsive landing page template inspired by retro gaming aesthetics, built with HTML, CSS, and JavaScript for promoting local service businesses such as plumbers, electricians, gardeners, technicians, and other professionals.
+Um site institucional moderno e responsivo desenvolvido para a Facilita Soluções, empresa especializada em embalagens industriais, soluções logísticas e projetos personalizados para diversos segmentos da indústria.
 
 📸 Preview
 
-![Service Hero Template](./image.png)
+![Facilita Soluções](./image.png)
 
 
-🚀 Live Demo
+🌐 Demonstração
 
-https://moniquegananca88.github.io/Service-Hero-Template/
+https://SEU-LINK-AQUI.com
 
-✨ Features
-Responsive design
-Hero section with strong call-to-action
-WhatsApp contact integration
-Promotional video section
-Modern and engaging UI
-Custom favicon support
-Reusable structure for different service businesses
-Clean and intuitive navigation
-🛠️ Technologies Used
+✨ Funcionalidades
+Design responsivo para desktop, tablet e smartphone
+Menu de navegação intuitivo
+Componentes reutilizáveis (Header, Footer, Formulário e WhatsApp)
+Integração direta com WhatsApp
+Formulário de solicitação de orçamento
+Vídeo institucional em plano de fundo
+Página institucional da empresa
+Catálogo de produtos e soluções
+Página de clientes
+Estrutura modular para facilitar manutenção
+Ícones e favicon personalizados
+Layout moderno e profissional
+🛠️ Tecnologias Utilizadas
 HTML5
 CSS3
 JavaScript
 Git
 GitHub
 GitHub Pages
-⚙️ Getting Started
+⚙️ Como Executar o Projeto
 
-Clone the repository:
+Clone o repositório:
 
-git clone https://github.com/moniquegananca88/Service-Hero-Template.git
+git clone https://github.com/SEU-USUARIO/facilita-solucoes.git
 
-cd Service-Hero-Template
+Acesse a pasta do projeto:
 
-Open the index.html file in your browser or use the Live Server extension in VS Code.
+cd facilita-solucoes
 
-📂 Project Structure
-Service-Hero-Template/
+Abra o arquivo index.html em seu navegador ou utilize a extensão Live Server no Visual Studio Code.
+
+📂 Estrutura do Projeto
+facilita-solucoes/
+│
 ├── assets/
+│   ├── clientes/
+│   ├── produtos/
+│   ├── images/
+│   └── videos/
+│
+├── components/
+│   ├── header.html
+│   ├── footer.html
+│   ├── form.html
+│   ├── whatsapp.html
+│   └── background.html
+│
+├── css/
+│   ├── style.css
+│   ├── header.css
+│   ├── footer.css
+│   ├── form.css
+│   ├── home.css
+│   ├── services.css
+│   └── clients.css
+│
+├── js/
+│   ├── script.js
+│   ├── header.js
+│   ├── footer.js
+│   ├── form.js
+│   ├── whatsapp.js
+│   └── background.js
+│
+├── pages/
+│   ├── company.html
+│   ├── services.html
+│   └── clients.html
+│
 ├── icon/
-├── image.png
 ├── index.html
-└── style.css
-🎯 Purpose
+└── README.md
+🎯 Objetivo
 
-This project was created as a reusable landing page template for local service providers. It can be easily customized for various business niches and marketing campaigns.
+Este projeto foi desenvolvido para apresentar os produtos, serviços e soluções oferecidos pela Facilita Soluções de forma profissional, facilitando o contato com clientes e a divulgação da empresa no ambiente digital.
 
-👩‍💻 Developed By
+👩‍💻 Desenvolvido por
 
 Monique Ganança
 

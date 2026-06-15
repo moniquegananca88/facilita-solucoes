@@ -1,105 +1,103 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mukta&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./icon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./icon/site.webmanifest" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Mario Plumber</title>
-  </head>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <div class="mascara-form" onclick="hideForm()"></div>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
 
-    <header>
-      <img src="./assets/logo-header.png" class="logo-header" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+  <link rel="manifest" href="./icon/site.webmanifest">
 
-      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/header.css">
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/form.css">
+<link rel="stylesheet" href="./css/home.css">
 
-      <nav class="menu">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="https://wa.me/5511999999999" target="_blank"> Contact </a>
-      </nav>
-    </header>
+  <title>Facilita Soluções</title>
+</head>
 
-    <div class="container">
-      <div class="background">
-        <video loop autoplay muted class="conteudo-background">
-          <source src="./assets/video.mp4" />
-        </video>
+<body>
+  <div class="mascara-form" onclick="hideForm()"></div>
 
-        <div class="mascara-video"></div>
+  <div id="header"></div>
+
+  <main class="home">
+
+    <div id="background-container"></div>
+
+   
+
+    <section class="cards-home">
+
+      <div class="card-info">
+        <img src="https://img.icons8.com/ios-filled/100/ffffff/company.png" alt="Empresa">
+        <h2>Empresa</h2>
+        <p>
+          Especialistas em embalagens industriais e soluções logísticas
+          personalizadas para diversos segmentos.
+        </p>
       </div>
 
-      <div class="sobre-nos">
-        <img src="./assets/logo.png" class="logo" />
+      <div class="card-info">
+        <img src="https://img.icons8.com/ios-filled/100/ffffff/engineering.png" alt="Projetos">
+        <h2>Projetos</h2>
         <p>
-          🔧 Mario & Luigi Plumbers - Solving Your Plumbing Problems in Style!
-          🔧
+          Soluções desenvolvidas sob medida para garantir eficiência
+          operacional e proteção dos produtos.
         </p>
-        <p>
-          Have you ever found yourself in a plumbing emergency? Unexpected
-          leaks, clogged pipes, or faucets that won't stop dripping? Don't
-          worry, because we're here to save the day! Introducing the most famous
-          plumbers in the Mushroom Kingdom - Mario and Luigi!
-        </p>
-        <button onclick="showForm()">Get in touch</button>
       </div>
 
-      <img src="./assets/mario.png" class="mario" />
-      <a
-        class="whatsapp"
-        href="https://wa.me/9999999999?text=Hello!%20I%20would%20like%20to%20request%20a%20quote."
-        target="_blank"
-      >
-        <img src="./assets/whatsapp.png" />
-      </a>
+      <div class="card-info">
+        <img src="https://img.icons8.com/ios-filled/100/ffffff/product.png" alt="Produtos">
+        <h2>Produtos</h2>
+        <p>
+          Embalagens industriais projetadas para transporte,
+          armazenamento e movimentação de cargas.
+        </p>
+      </div>
 
-      <form
-        class="fale-conosco"
-        action="https://formcarry.com/s/jSKCSjElWPJ"
-        method="POST"
-        enctype="multipart/form-data"
-      >
-        <input type="text" name="name" placeholder="Your Name" required />
+      <div class="card-info">
+        <img src="https://img.icons8.com/ios-filled/100/ffffff/briefcase.png" alt="Orçamento">
+        <h2>Orçamentos</h2>
+        <p>
+          Atendimento consultivo para entender sua necessidade
+          e oferecer a melhor solução para sua empresa.
+        </p>
+      </div>
 
-        <input type="number" name="phone" placeholder="Your Phone" required />
+    </section>
 
-        <input type="email" name="email" placeholder="Your Email" required />
+    <section class="orcamento-home">
+      <h1>Precisa de uma solução personalizada?</h1>
 
-        <textarea
-          name="message"
-          placeholder="Enter your problem"
-          required
-        ></textarea>
+      <p>
+        Entre em contato com a Facilita Soluções e solicite um orçamento
+        para embalagens industriais, projetos especiais ou soluções logísticas.
+      </p>
 
-        <button type="submit">Request Quote</button>
-      </form>
-    </div>
-    <script src="script.js"></script>
-  </body>
+      <button onclick="showForm()">Orçamento</button>
+    </section>
+
+  </main>
+
+<div id="whatsapp-container"></div>
+
+ <div id="form-container"></div>
+
+  <div id="footer"></div>
+
+  <script src="./js/header.js" defer></script>
+<script src="./js/footer.js" defer></script>
+<script src="./js/script.js" defer></script>
+<script src="./js/form.js" defer></script>
+<script src="./js/whatsapp.js"></script>
+<script src="./js/background.js"></script>
+
+</body>
 </html>
