@@ -1,8 +1,8 @@
-const whatsappPath = window.location.pathname.includes("/pages/")
-  ? "../components/whatsapp.html"
-  : "./components/whatsapp.html";
+const whatsappBaseUrl = window.location.hostname.includes("github.io")
+  ? "/facilita-solucoes"
+  : "";
 
-fetch(whatsappPath)
+fetch(`${whatsappBaseUrl}/components/whatsapp.html`)
   .then(response => response.text())
   .then(data => {
     document.getElementById("whatsapp-container").innerHTML = data;

@@ -1,8 +1,8 @@
-const path = window.location.pathname.includes("/pages/")
-  ? "../components/footer.html"
-  : "./components/footer.html";
+const footerBaseUrl = window.location.hostname.includes("github.io")
+  ? "/facilita-solucoes"
+  : "";
 
-fetch(path)
+fetch(`${footerBaseUrl}/components/footer.html`)
   .then(response => response.text())
   .then(data => {
     document.getElementById("footer").innerHTML = data;

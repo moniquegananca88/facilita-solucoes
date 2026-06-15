@@ -1,8 +1,8 @@
-const headerPath = window.location.pathname.includes("/pages/")
-  ? "../components/header.html"
-  : "./components/header.html";
+const headerBaseUrl = window.location.hostname.includes("github.io")
+  ? "/facilita-solucoes"
+  : "";
 
-fetch(headerPath)
+fetch(`${headerBaseUrl}/components/header.html`)
   .then(response => response.text())
   .then(data => {
     document.getElementById("header").innerHTML = data;

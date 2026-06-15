@@ -1,8 +1,8 @@
-const backgroundPath = window.location.pathname.includes("/pages/")
-  ? "../components/background.html"
-  : "./components/background.html";
+const backgroundBaseUrl = window.location.hostname.includes("github.io")
+  ? "/facilita-solucoes"
+  : "";
 
-fetch(backgroundPath)
+fetch(`${backgroundBaseUrl}/components/background.html`)
   .then(response => response.text())
   .then(data => {
     document.getElementById("background-container").innerHTML = data;

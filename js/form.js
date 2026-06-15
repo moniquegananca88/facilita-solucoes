@@ -1,8 +1,8 @@
-const formPath = window.location.pathname.includes("/pages/")
-  ? "../components/form.html"
-  : "./components/form.html";
+const formBaseUrl = window.location.hostname.includes("github.io")
+  ? "/facilita-solucoes"
+  : "";
 
-fetch(formPath)
+fetch(`${formBaseUrl}/components/form.html`)
   .then(response => response.text())
   .then(data => {
     document.getElementById("form-container").innerHTML = data;
